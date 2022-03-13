@@ -1,0 +1,16 @@
+[package]
+name = "tilp3"
+version = "0.0.0"
+edition = "2018"
+
+[dependencies]
+# These are not needed yet:
+#cpp_core = "0.6.0"
+#qt_core = "0.5.0"
+#qt_gui = "0.5.0"
+#qt_qml = "0.5.0"
+# Our own library(ies):
+ce_usb_protocol = { path = "../ce_usb_protocol" }
+
+#[build-dependencies]
+#qt_ritual_build = "0.5.0"
